@@ -24108,8 +24108,8 @@ break
 case 5:s=l.a
 s===$&&A.a()
 s=A.bM(A.Dg(s+240),40)
-r=A.bM(A.a8W(l,B.rQ,B.OK),24)
-q=A.bM(A.a8W(l,B.rQ,B.OL),32)
+r=A.bM(A.a8W(l,B.rQ,B.OL),24)
+q=A.bM(A.a8W(l,B.rQ,B.OM),32)
 p=A.bM(l.a+15,8)
 o=A.bM(l.a+15,12)
 l.d===$&&A.a()
@@ -30953,7 +30953,7 @@ acl(a){var s=a/100
 return(s<=0.0031308?s*12.92:1.055*Math.pow(s,0.4166666666666667)-0.055)*255},
 aJo(a){var s=Math.pow(Math.abs(a),0.42)
 return A.rr(a)*400*s/(s+27.13)},
-aJp(a){var s=A.aJH(a,B.OJ),r=A.aJo(s[0]),q=A.aJo(s[1]),p=A.aJo(s[2])
+aJp(a){var s=A.aJH(a,B.OK),r=A.aJo(s[0]),q=A.aJo(s[1]),p=A.aJo(s[2])
 return Math.atan2((r+q-2*p)/9,(11*r+-12*q+p)/11)},
 b_z(a,b){var s,r,q,p,o,n=B.k.c0(b,4)<=1?0:100,m=(b&1)===0?0:100
 if(b<4){s=(a-n*0.7152-m*0.0722)/0.2126
@@ -30988,7 +30988,7 @@ if(q!==p){if(q<p){o=B.e.fL(A.acl(q)-0.5)
 n=B.e.j3(A.acl(a[r])-0.5)}else{o=B.e.j3(A.acl(q)-0.5)
 n=B.e.fL(A.acl(a[r])-0.5)}for(m=0;m<8;++m)if(Math.abs(n-o)<=1)break
 else{l=B.e.fL((o+n)/2)
-k=B.OT[l]
+k=B.OU[l]
 q=c[r]
 j=(k-q)/(a[r]-q)
 q=c[0]
@@ -37437,7 +37437,7 @@ agn(){var s=this,r=s.r
 if(r==null){r=s.r=new A.My(s.c)
 r.d=new A.aau(s)}return r},
 Ok(a){var s,r=this
-if(B.c.m(B.OQ,a.type)){s=r.agn()
+if(B.c.m(B.OR,a.type)){s=r.agn()
 s.toString
 s.sawc(r.c.$0().Rh(5e5))
 if(r.f!==B.rc){r.f=B.rc
@@ -48491,7 +48491,7 @@ q=j.b.x
 q===$&&A.a()
 p=B.e.fL(8*q)
 for(q=j.e,o=8*q,n=j.f,q=q<1,m=j.c,l=0;l<o;++l){k=B.k.c0(l-p,8)
-s.r=m.dd(q?147:B.OC[k]).gp(0)
+s.r=m.dd(q?147:B.OD[k]).gp(0)
 a.d6(n,s)
 r.rotate(45,0,0)}r.restore()},
 eg(a){return a.b!==this.b||!a.c.j(0,this.c)||a.e!==this.e}}
@@ -54931,7 +54931,7 @@ p=h.gpL(0)
 o=h.r
 o=o==null?g:o*a3+a2
 n=h.w
-n=n==null?g:B.OS[B.k.dv(n.gqp(0),0,8)]
+n=n==null?g:B.OT[B.k.dv(n.gqp(0),0,8)]
 m=h.y
 m=m==null?g:m*a8+a7
 l=h.z
@@ -85988,7 +85988,7 @@ l(){var s=this.x
 s.fx$=$.aa()
 s.fr$=0
 this.ap()},
-F(a){var s,r,q=this,p=null,o=A.eP(p,p,B.a2p),n=t.y
+F(a){var s,r,q=this,p=null,o=A.eP(p,p,B.a2q),n=t.y
 n=A.amz(new A.asE(q),B.NT,A.c7([q.z],n),n)
 s=t.p
 n=A.b([n,B.am,A.dL(new A.aF(B.fR,A.ag(q.z?"Included in your subscription: our trading server logs in to your broker account and runs the EA 24/7 on XAUUSD, EURUSD and USDJPY. Your phone or PC can be off. Your trading password is stored encrypted and only used by our server to log in to MT5. Minimum balance $50.":"You run the EA in your own MT5 terminal (PC or VPS) with a revocable EA key. LABEED GOLD AI never asks for your MT5 password.",p,p,p,p,p,B.Dw,p,p),p),p,p),B.kh,A.k4(!0,p,!1,q.e,B.LF,!0,p,p,p,p,!1,p,new A.asF()),B.am,B.Sq,new A.Ad(new A.asG(q),new A.asH(q),new A.asI(q),p,t.dq),B.am,A.k4(!0,p,!1,q.r,B.LE,!0,p,A.b([$.aUy()],t.VS),p,B.d5,!1,p,new A.asJ())],s)
@@ -86130,7 +86130,7 @@ l(){var s=this.gYK()
 s.r=!0
 s.dl()
 this.ap()},
-F(a){var s=null,r=t.V,q=A.d4(a,!1,r).a,p=A.eP(B.rN,s,B.a32)
+F(a){var s=null,r=t.V,q=A.d4(a,!1,r).a,p=A.eP(B.rN,s,B.a33)
 r=A.d4(a,!1,r).gNs()
 return A.dU(p,new A.ef(new A.asq(this,q),new A.asr(this,a,q),s,"Nothing here yet.",!1,new A.KQ(new A.ass(this),r,A.m(r).i("KQ<dW.T>")),s,t.WE),s)}}
 A.ass.prototype={
@@ -86182,7 +86182,7 @@ o=A.fK(B.KS,o,j,j)
 n=A.ag("Hosted: "+A.aTD(A.c5(a1.h(d,g))),j,j,j,j,j,j,j,j)
 m=a1.h(d,"hosted_message")
 m=A.ag(A.k(m==null?"":m)+"\nPairs: XAUUSD \xb7 EURUSD \xb7 USDJPY",j,j,j,j,j,j,j,j)
-p.push(A.dL(A.cM(!1,j,j,j,!0,j,j,j,!0,!0,o,j,j,j,j,j,!1,j,j,j,j,j,m,j,n,j,J.c(a1.h(d,g),f)?A.fA(B.a2O,j,j,new A.asg(k.a,k.b,k.c,a4),j,j):j,j),j,j))}o=A.e0(a1.h(d,"balance"),r)
+p.push(A.dL(A.cM(!1,j,j,j,!0,j,j,j,!0,!0,o,j,j,j,j,j,!1,j,j,j,j,j,m,j,n,j,J.c(a1.h(d,g),f)?A.fA(B.a2P,j,j,new A.asg(k.a,k.b,k.c,a4),j,j):j,j),j,j))}o=A.e0(a1.h(d,"balance"),r)
 n=A.e0(a1.h(d,"equity"),r)
 m=A.e0(a1.h(d,"free_margin"),r)
 l=J.ah(s,"openPositions")
@@ -86199,7 +86199,7 @@ b=k.a
 p.push(new A.VN(a,c,b.gYK(),a4,j))
 c=b}p.push(B.Uz)
 b=k.b
-q=A.b([A.cM(!1,j,j,j,!0,j,j,j,!0,j,B.La,j,j,j,j,new A.asi(c,b),!1,j,j,j,j,j,j,j,B.a3d,j,B.eT,j)],q)
+q=A.b([A.cM(!1,j,j,j,!0,j,j,j,!0,j,B.La,j,j,j,j,new A.asi(c,b),!1,j,j,j,j,j,j,j,B.a3e,j,B.eT,j)],q)
 a0=!a0
 if(a0)q.push(A.cM(!1,j,j,j,!0,j,j,j,!0,j,B.Ll,j,j,j,j,new A.asj(b,a),!1,j,j,j,j,j,j,j,B.DA,j,B.eT,j))
 if(a0)q.push(A.cM(!1,j,j,j,!0,j,j,j,!0,j,B.L5,j,j,j,j,new A.ask(b,a,r),!1,j,j,j,j,j,j,j,B.DB,j,B.eT,j))
@@ -86242,7 +86242,7 @@ return A.F($async$$0,r)},
 $S:7}
 A.asf.prototype={
 $1(a){var s=null,r=A.lf(s,B.bm,!1,s,!0,B.D,s,A.ni(),this.a,s,s,s,s,s,2,B.Lt,B.a2,!0,s,s,!0,s,!1,s,B.b7,s,s,s,s,s,s,s,s,1,s,s,!0,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bI,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.af,s,B.c4,s,s,s,s)
-return A.lB(A.b([A.fA(B.em,s,s,new A.as8(a),s,s),A.ek(B.a23,s,new A.as9(a),s)],t.p),r,B.a31)},
+return A.lB(A.b([A.fA(B.em,s,s,new A.as8(a),s,s),A.ek(B.a23,s,new A.as9(a),s)],t.p),r,B.a32)},
 $S:37}
 A.as8.prototype={
 $0(){A.c3(this.a,!1).ed(!1)
@@ -86409,7 +86409,7 @@ return A.F($async$mq,r)},
 F(a){return new A.kQ(new A.auI(this),null,this.e,null)}}
 A.auE.prototype={
 $1(a){var s=null
-return A.lB(A.b([A.fA(B.em,s,s,new A.auC(a),s,s),A.ek(B.a3I,s,new A.auD(a),A.BW(B.an,B.i,s,s,s))],t.p),B.a2K,B.a2E)},
+return A.lB(A.b([A.fA(B.em,s,s,new A.auC(a),s,s),A.ek(B.a3I,s,new A.auD(a),A.BW(B.an,B.i,s,s,s))],t.p),B.a2L,B.a2F)},
 $S:37}
 A.auC.prototype={
 $0(){A.c3(this.a,!1).ed(!1)
@@ -86427,10 +86427,10 @@ break A}s=B.cy
 break A}r=A.ag("Auto trading requested: "+(J.c(J.ah(l.c,"auto_trading_desired"),!0)?"ON":"OFF"),n,n,n,n,n,B.el,n,n)
 q=A.fr(A.ek(B.a3u,B.a5m,j?n:new A.auF(l,a),n),1)
 p=t.p
-q=A.dT(A.b([q,B.X4,A.fr(A.DL(B.a3_,B.a5n,j?n:new A.auG(l,a),n),1)],p),B.E,B.B,B.Q,0)
+q=A.dT(A.b([q,B.X4,A.fr(A.DL(B.a30,B.a5n,j?n:new A.auG(l,a),n),1)],p),B.E,B.B,B.Q,0)
 o=A.BW(B.an,B.i,n,n,n)
 l=k.f?n:new A.auH(l,a)
-l=A.b([r,B.am,q,B.am,new A.BV(!0,l,n,n,n,o,B.G,n,!1,n,!0,n,new A.Xk(B.a2D,B.Lg,o,n,n),B.a5h)],p)
+l=A.b([r,B.am,q,B.am,new A.BV(!0,l,n,n,n,o,B.G,n,!1,n,!0,n,new A.Xk(B.a2E,B.Lg,o,n,n),B.a5h)],p)
 if(!h){h=A.b([],p)
 if(k.ga2i())h.push(B.X6)
 else h.push(A.fK(g==="APPLIED"?B.rf:B.Kv,s,n,18))
@@ -86456,7 +86456,7 @@ $0(){return this.a.mq(this.b,"EMERGENCY_STOP")},
 $S:0}
 A.VL.prototype={
 F(a){var s=null
-return A.dL(new A.aF(B.bH,A.ck(A.b([B.a2T,B.am,A.ek(B.a33,s,new A.auB(this,a),s)],t.p),B.dh,B.B,B.Q),s),s,s)}}
+return A.dL(new A.aF(B.bH,A.ck(A.b([B.a2U,B.am,A.ek(B.a34,s,new A.auB(this,a),s)],t.p),B.dh,B.B,B.Q),s),s,s)}}
 A.auB.prototype={
 $0(){var s=0,r=A.G(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$$0=A.H(function(a,b){if(a===1){o.push(b)
@@ -86488,7 +86488,7 @@ case 2:return A.D(o.at(-1),r)}})
 return A.F($async$$0,r)},
 $S:7}
 A.aI2.prototype={
-$1(a){var s=null,r=this.a,q=J.aj(r),p=t.p,o=A.b([B.a2z,B.am,A.aKb("EA key id:\n"+A.k(q.h(r,"ea_key_id")),s),B.bA,A.aKb("EA secret:\n"+A.k(q.h(r,"eaSecret")),s)],p)
+$1(a){var s=null,r=this.a,q=J.aj(r),p=t.p,o=A.b([B.a2A,B.am,A.aKb("EA key id:\n"+A.k(q.h(r,"ea_key_id")),s),B.bA,A.aKb("EA secret:\n"+A.k(q.h(r,"eaSecret")),s)],p)
 if(q.h(r,"magic")!=null)o.push(new A.aF(B.eK,A.ag("Magic number: "+A.k(q.h(r,"magic")),s,s,s,s,s,B.el,s,s),s))
 q=A.ck(o,B.bv,B.B,B.ap)
 return A.lB(A.b([A.fA(B.a28,s,s,new A.aI0(r),s,s),A.ek(B.a3r,s,new A.aI1(a),s)],p),q,B.a3C)},
@@ -86516,14 +86516,14 @@ o=A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,i,i,B.a3A,i,A.ag(A.k(o==n
 g=A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,i,i,B.a1Q,i,A.ag(A.k(f.h(g,"magic")),i,i,i,i,i,i,i,i),i)
 f=J.aj(e)
 n=A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,i,i,B.a3v,i,A.ag(s.$1(f.h(e,"terminalConnected")),i,i,i,i,i,i,i,i),i)
-s=A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,i,i,B.a2G,i,A.ag(s.$1(f.h(e,"tradeAllowed")),i,i,i,i,i,i,i,i),i)
+s=A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,i,i,B.a2H,i,A.ag(s.$1(f.h(e,"tradeAllowed")),i,i,i,i,i,i,i,i),i)
 m=f.h(e,"server")
-m=A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,i,i,B.a3l,i,A.ag(A.k(m==null?"\u2014":m),i,i,i,i,i,i,i,i),i)
+m=A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,i,i,B.a3m,i,A.ag(A.k(m==null?"\u2014":m),i,i,i,i,i,i,i,i),i)
 l=f.h(e,"symbol")
 l=A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,i,i,B.a1P,i,A.ag(A.k(l==null?"\u2014":l),i,i,i,i,i,i,i,i),i)
 k=A.c5(f.h(e,h))
 j=t.p
-return A.dU(q,A.eX(A.b([p,A.dL(A.ck(A.b([o,g,n,s,m,l,A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,A.ag(A.k((k==null?i:k.length!==0)===!0?f.h(e,h):"None"),i,i,i,i,i,i,i,i),i,B.a3b,i,i,i)],j),B.E,B.B,B.Q),i,i),B.Si],j),B.bH,i,!1),i)}}
+return A.dU(q,A.eX(A.b([p,A.dL(A.ck(A.b([o,g,n,s,m,l,A.cM(!1,i,i,i,!0,i,i,i,!0,i,i,i,i,i,i,i,!1,i,i,i,i,i,A.ag(A.k((k==null?i:k.length!==0)===!0?f.h(e,h):"None"),i,i,i,i,i,i,i,i),i,B.a3c,i,i,i)],j),B.E,B.B,B.Q),i,i),B.Si],j),B.bH,i,!1),i)}}
 A.arG.prototype={
 $1(a){var s=J.ne(a)
 if(s.j(a,!0))s="Yes"
@@ -86553,7 +86553,7 @@ A.azr.prototype={
 $0(){return this.a.e=this.b},
 $S:0}
 A.azt.prototype={
-$2(a,b){var s=null,r=B.OU[b]
+$2(a,b){var s=null,r=B.Ou[b]
 return new A.aF(B.qK,A.ck(A.b([A.fK(r.a,B.aI,s,88),B.Xb,A.ag(r.b,s,s,s,s,s,B.a_I,B.cH,s),B.Xa,A.ag(r.c,s,s,s,s,s,B.a15,B.cH,s)],t.p),B.E,B.eW,B.Q),s)},
 $S:488}
 A.azu.prototype={
@@ -86600,7 +86600,7 @@ break
 case 6:case 1:return A.E(q,r)
 case 2:return A.D(o.at(-1),r)}})
 return A.F($async$lh,r)},
-F(a){var s,r=this,q=null,p=t.p,o=A.b([B.FA,B.Xc,A.k4(!0,B.Oe,!1,r.e,B.LA,!0,q,q,B.a5g,B.kl,!1,q,new A.ayA()),B.am,A.k4(!0,B.OF,!1,r.f,B.Ls,!0,q,q,B.a5k,q,!0,q,new A.ayB())],p)
+F(a){var s,r=this,q=null,p=t.p,o=A.b([B.FA,B.Xc,A.k4(!0,B.Oe,!1,r.e,B.LA,!0,q,q,B.a5g,B.kl,!1,q,new A.ayA()),B.am,A.k4(!0,B.OG,!1,r.f,B.Ls,!0,q,q,B.a5k,q,!0,q,new A.ayB())],p)
 if(r.x)B.c.S(o,A.b([B.am,A.k4(!0,q,!0,r.r,B.LC,!0,q,q,B.a5o,B.d5,!1,q,new A.ayC())],p))
 p=r.y
 if(p!=null)o.push(new A.aF(B.qI,A.ag(p,q,q,q,q,q,B.kp,q,q),q))
@@ -86610,9 +86610,9 @@ s=p?q:r.gKa()
 if(p)p=B.X8
 else p=A.ag(r.x?"Verify":"Sign in",q,q,q,q,q,q,q,q)
 o.push(A.ek(p,B.a5i,s,q))
-o.push(A.fA(B.a2V,q,q,new A.ayD(a),q,q))
+o.push(A.fA(B.a2W,q,q,new A.ayD(a),q,q))
 o.push(B.bA)
-o.push(A.DL(B.a34,q,new A.ayE(a),q))
+o.push(A.DL(B.a35,q,new A.ayE(a),q))
 o.push(B.hm)
 return A.dU(q,A.oG(!0,A.fm(A.b2q(new A.du(B.EY,A.aJk(A.ck(o,B.dh,B.B,B.Q),r.d),q),q,B.a2,B.fS,q,B.av),q,q),!0,!1,B.a0,!0,!0),q)}}
 A.ayu.prototype={
@@ -86702,7 +86702,7 @@ case 6:case 1:return A.E(q,r)
 case 2:return A.D(o.at(-1),r)}})
 return A.F($async$lh,r)},
 F(a){var s=this,r=null,q=A.eP(r,r,B.DD),p=A.k4(!0,r,!1,s.e,B.LJ,!0,r,r,r,r,!1,r,r),o=A.k4(!0,r,!1,s.f,B.rs,!0,r,r,r,B.kl,!1,r,new A.aBj()),n=A.k4(!0,r,!1,s.r,B.Ly,!0,r,r,r,r,!0,r,new A.aBk()),m=A.k4(!0,r,!1,s.w,B.LD,!0,r,r,r,r,!0,r,new A.aBl(s)),l=s.x
-return A.dU(q,A.aJk(A.eX(A.b([p,B.am,o,B.am,n,B.am,m,B.am,new A.AE(l,new A.aBm(s),B.a2P,B.mQ,r),B.am,A.ek(B.DD,r,s.y?r:s.gKa(),r)],t.p),B.fS,r,!1),s.d),r)}}
+return A.dU(q,A.aJk(A.eX(A.b([p,B.am,o,B.am,n,B.am,m,B.am,new A.AE(l,new A.aBm(s),B.a2Q,B.mQ,r),B.am,A.ek(B.DD,r,s.y?r:s.gKa(),r)],t.p),B.fS,r,!1),s.d),r)}}
 A.aBf.prototype={
 $0(){return this.a.y=!0},
 $S:0}
@@ -86758,11 +86758,11 @@ break
 case 5:return A.E(null,r)
 case 1:return A.D(p.at(-1),r)}})
 return A.F($async$w9,r)},
-F(a){var s,r,q=this,p=null,o=A.d4(a,!1,t.V).a,n=A.eP(p,p,B.a2x),m=t.p,l=A.b([],m)
+F(a){var s,r,q=this,p=null,o=A.d4(a,!1,t.V).a,n=A.eP(p,p,B.a2y),m=t.p,l=A.b([],m)
 if(!q.r){s=A.lf(p,B.bm,!1,p,!0,B.D,p,A.ni(),q.d,p,p,p,p,p,2,B.rs,B.a2,!0,p,p,!0,p,!1,p,B.b7,p,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,p,p,p,!1,p,p,!1,p,!0,p,B.bI,p,p,p,p,p,p,p,p,p,p,p,p,!0,B.af,p,B.c4,p,p,p,p)
 B.c.S(l,A.b([B.a2c,B.am,s,B.kh,A.ek(B.a2d,p,q.w?p:new A.aCq(q,o),p)],m))}else{s=A.lf(p,B.bm,!1,p,!0,B.D,p,A.ni(),q.e,p,p,p,p,p,2,B.Lx,B.a2,!0,p,p,!0,p,!1,p,B.b7,p,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,p,p,p,!1,p,p,!1,p,!0,p,B.bI,p,p,p,p,p,p,p,p,p,p,p,p,!0,B.af,p,B.c4,p,p,p,p)
 r=A.lf(p,B.bm,!1,p,!0,B.D,p,A.ni(),q.f,p,p,p,p,p,2,B.Lz,B.a2,!0,p,p,!0,p,!1,p,B.b7,p,p,p,p,p,p,p,p,1,p,p,!0,"\u2022",p,p,p,p,p,!1,p,p,!1,p,!0,p,B.bI,p,p,p,p,p,p,p,p,p,p,p,p,!0,B.af,p,B.c4,p,p,p,p)
-B.c.S(l,A.b([B.a2F,B.am,s,B.am,r,B.kh,A.ek(B.a20,p,q.w?p:new A.aCr(q,o,a),p)],m))}return A.dU(n,A.eX(l,B.fS,p,!1),p)}}
+B.c.S(l,A.b([B.a2G,B.am,s,B.am,r,B.kh,A.ek(B.a20,p,q.w?p:new A.aCr(q,o,a),p)],m))}return A.dU(n,A.eX(l,B.fS,p,!1),p)}}
 A.aCl.prototype={
 $0(){return this.a.w=!0},
 $S:0}
@@ -86807,7 +86807,7 @@ return A.F($async$$0,r)},
 $S:7}
 A.NU.prototype={
 F(a){var s=null,r=t.V,q=A.d4(a,!1,r).a
-return A.dU(A.eP(B.rN,s,B.a2s),new A.ef(new A.a7T(q),new A.a7U(),s,"Nothing here yet.",!1,A.d4(a,!1,r).gNs(),s,t.cB),s)}}
+return A.dU(A.eP(B.rN,s,B.a2t),new A.ef(new A.a7T(q),new A.a7U(),s,"Nothing here yet.",!1,A.d4(a,!1,r).gNs(),s,t.cB),s)}}
 A.a7T.prototype={
 $0(){var s=0,r=A.G(t.JX),q,p=2,o=[],n=this,m,l,k,j,i
 var $async$$0=A.H(function(a,b){if(a===1){o.push(b)
@@ -86859,7 +86859,7 @@ if(J.c(f.h(g,"connection_status"),"online"))++i
 if(f.h(g,"today_lock")!=null)++h}c=J.c(J.ah(a0.e,"active"),!0)
 m=t.p
 l=A.b([A.aOt(new A.avo(),A.aLr(A.d4(a2,!1,t.V).a),t.Bj)],m)
-if(!c)l.push(A.dL(A.cM(!1,a1,a1,a1,!0,a1,a1,a1,!0,a1,B.Ld,a1,a1,a1,a1,a1,!1,a1,a1,a1,a1,a1,B.a3f,a1,B.a2L,a1,a1,a1),B.HP,a1))
+if(!c)l.push(A.dL(A.cM(!1,a1,a1,a1,!0,a1,a1,a1,!0,a1,B.Ld,a1,a1,a1,a1,a1,!1,a1,a1,a1,a1,a1,B.a3g,a1,B.a2M,a1,a1,a1),B.HP,a1))
 k=A.e0(p,a1)
 f=A.e0(j,a1)
 if(j>0)d=B.aM
@@ -86966,7 +86966,7 @@ A.DR.prototype={
 a6(){return new A.Zt()}}
 A.Zt.prototype={
 F(a){var s=this,r=null,q=A.d4(a,!1,t.V).a,p=t.N
-return A.dU(A.eP(r,r,B.a2R),A.ck(A.b([new A.aF(B.cc,A.amz(new A.azV(s),B.Ne,A.c7([s.d],p),p),r),A.fr(new A.ef(new A.azW(s,q),new A.azX(),new A.azY(),"No closed trades in this period. Performance is calculated only from your real closed trades.",!1,r,new A.cj(s.d,t.kK),t.w8),1)],t.p),B.E,B.B,B.Q),r)}}
+return A.dU(A.eP(r,r,B.a2S),A.ck(A.b([new A.aF(B.cc,A.amz(new A.azV(s),B.Ne,A.c7([s.d],p),p),r),A.fr(new A.ef(new A.azW(s,q),new A.azX(),new A.azY(),"No closed trades in this period. Performance is calculated only from your real closed trades.",!1,r,new A.cj(s.d,t.kK),t.w8),1)],t.p),B.E,B.B,B.Q),r)}}
 A.azV.prototype={
 $1(a){var s=this.a
 return s.V(new A.azU(s,a))},
@@ -87023,7 +87023,7 @@ s=B.e.ae(s*100,1)+"%"}return s},
 $S:55}
 A.QE.prototype={
 F(a){var s=null,r=A.d4(a,!1,t.V).a
-return A.dU(A.eP(A.b([A.ad0(s,s,B.Lk,s,s,new A.aif(a),s,s,s)],t.p),s,B.a36),new A.ef(new A.aig(r),new A.aih(r),new A.aii(),"No notifications.",!1,s,s,t.TJ),s)}}
+return A.dU(A.eP(A.b([A.ad0(s,s,B.Lk,s,s,new A.aif(a),s,s,s)],t.p),s,B.a37),new A.ef(new A.aig(r),new A.aih(r),new A.aii(),"No notifications.",!1,s,s,t.TJ),s)}}
 A.aif.prototype={
 $0(){var s=A.jO(new A.aie(),null,t.z)
 return A.c3(this.a,!1).fQ(s)},
@@ -87067,16 +87067,16 @@ A.ai6.prototype={
 $0(){return this.a.E_()},
 $S:48}
 A.ai7.prototype={
-$3(a,b,c){var s,r,q,p="whatsapp",o="telegram",n=null,m="opted_out_at",l=new A.aia(J.fZ(b,t.P)),k=new A.ai9(l),j=new A.aic(l),i=this.a,h=new A.aib(i,c,a),g=l.$1(p),f=l.$1(o),e=A.xj(new A.ai0(h),B.a3i,B.a3h,k.$1("push")),d=f==null
+$3(a,b,c){var s,r,q,p="whatsapp",o="telegram",n=null,m="opted_out_at",l=new A.aia(J.fZ(b,t.P)),k=new A.ai9(l),j=new A.aic(l),i=this.a,h=new A.aib(i,c,a),g=l.$1(p),f=l.$1(o),e=A.xj(new A.ai0(h),B.a3j,B.a3i,k.$1("push")),d=f==null
 if(J.c(d?n:J.ah(f,"linked"),!0))d=(d?n:J.ah(f,m))!=null?"Unsubscribed from Telegram (/stop). Turn on to resume.":"Linked"
 else d="Not linked: turning this on opens the LABEED GOLD AI bot"
-d=A.xj(new A.ai1(f,new A.ai8(i,a),h),A.ag(d,n,n,n,n,n,n,n,n),B.a2N,k.$1(o))
+d=A.xj(new A.ai1(f,new A.ai8(i,a),h),A.ag(d,n,n,n,n,n,n,n,n),B.a2O,k.$1(o))
 i=g==null
 if(J.c(i?n:J.ah(g,"linked"),!0)){s=A.k(i?n:J.ah(g,"destination"))
 s=s+((i?n:J.ah(g,m))!=null?" \xb7 opted out (reply START to resume)":"")+" \xb7 reply STOP to opt out"
 i=s}else i="Requires your consent; reply STOP at any time to opt out"
-i=A.b([B.Ux,e,d,A.xj(new A.ai2(h,a),A.ag(i,n,n,n,n,n,n,n,n),B.a2J,k.$1(p)),A.xj(new A.ai3(h),n,B.a3t,k.$1("email")),B.Uv],t.p)
-for(r=0;r<3;++r){q=B.OG[r]
+i=A.b([B.Ux,e,d,A.xj(new A.ai2(h,a),A.ag(i,n,n,n,n,n,n,n,n),B.a2K,k.$1(p)),A.xj(new A.ai3(h),n,B.a3t,k.$1("email")),B.Uv],t.p)
+for(r=0;r<3;++r){q=B.OH[r]
 i.push(A.xj(new A.ai4(h,q),n,A.ag("New signals via "+(q==="push"?"push":q[0].toUpperCase()+B.d.cr(q,1)),n,n,n,n,n,n,n,n),j.$1(q)))}i.push(B.Sr)
 return A.aK3(A.eX(i,B.cc,n,!1),c)},
 $S:504}
@@ -87191,7 +87191,7 @@ return A.F($async$$1,r)},
 $S:134}
 A.ai_.prototype={
 $1(a){var s=null,r=t.p,q=A.ck(A.b([A.lf(s,B.bm,!1,s,!0,B.D,s,A.ni(),this.a,s,s,s,s,s,2,B.Lu,B.a2,!0,s,s,!0,s,!1,s,B.b7,s,s,s,s,B.ci,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bI,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.af,s,B.c4,s,s,s,s),B.bA,B.a2k],r),B.E,B.B,B.ap)
-return A.lB(A.b([A.fA(B.em,s,s,new A.ahY(a),s,s),A.ek(B.a37,s,new A.ahZ(a),s)],r),q,B.a2C)},
+return A.lB(A.b([A.fA(B.em,s,s,new A.ahY(a),s,s),A.ek(B.a38,s,new A.ahZ(a),s)],r),q,B.a2D)},
 $S:37}
 A.ahY.prototype={
 $0(){A.c3(this.a,!1).ed(!1)
@@ -87220,7 +87220,7 @@ $S:134}
 A.Ro.prototype={
 F(a){var s,r,q,p,o=this,n=null,m="full_name",l=A.d4(a,!0,t.V),k=l.d
 if(k==null)k=A.t(t.N,t.z)
-s=A.eP(n,n,B.a3j)
+s=A.eP(n,n,B.a3k)
 r=J.aj(k)
 q=A.c5(r.h(k,m))
 if((q==null?n:q.length!==0)===!0)q=r.h(k,m)
@@ -87243,7 +87243,7 @@ $1(a){return this.a},
 $S:14}
 A.SK.prototype={
 F(a){var s=null,r=A.d4(a,!0,t.V),q=r.a,p=r.d,o=J.c(p==null?s:J.ah(p,"totp_enabled"),!0)
-return A.dU(A.eP(s,s,B.a1O),A.eX(A.b([A.dL(A.xj(new A.amt(q,a,r),B.a3E,B.a2U,o),s,s),B.Ut,new A.ef(new A.amu(q),new A.amv(q),new A.amw(),"No registered devices.",!0,s,s,t.TJ),B.am,A.DL(B.a1T,s,new A.amx(r),s),B.D8,B.UF,B.a35,B.bA,A.DL(B.a2a,B.a5e,new A.amy(a,o,q,r),A.aPw(s,s,s,s,s,s,s,s,s,B.an,s,s,s,s,s,s,s,s,s,s))],t.p),B.bH,s,!1),s)}}
+return A.dU(A.eP(s,s,B.a1O),A.eX(A.b([A.dL(A.xj(new A.amt(q,a,r),B.a3E,B.a2V,o),s,s),B.Ut,new A.ef(new A.amu(q),new A.amv(q),new A.amw(),"No registered devices.",!0,s,s,t.TJ),B.am,A.DL(B.a1T,s,new A.amx(r),s),B.D8,B.UF,B.a36,B.bA,A.DL(B.a2a,B.a5e,new A.amy(a,o,q,r),A.aPw(s,s,s,s,s,s,s,s,s,B.an,s,s,s,s,s,s,s,s,s,s))],t.p),B.bH,s,!1),s)}}
 A.amt.prototype={
 $1(a){return this.a54(a)},
 a54(a){var s=0,r=A.G(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c
@@ -87300,8 +87300,8 @@ case 2:return A.D(o.at(-1),r)}})
 return A.F($async$$1,r)},
 $S:134}
 A.ams.prototype={
-$1(a){var s=null,r=t.p,q=A.ck(A.b([B.a2A,B.bA,A.aKb(A.k(J.ah(this.a,"secret")),B.op),B.bA,A.lf(s,B.bm,!1,s,!0,B.D,s,A.ni(),this.b,s,s,s,s,s,2,B.Lq,B.a2,!0,s,s,!0,s,!1,s,B.b7,s,s,s,s,B.d5,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bI,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.af,s,B.c4,s,s,s,s)],r),B.E,B.B,B.ap)
-return A.lB(A.b([A.fA(B.em,s,s,new A.amo(a),s,s),A.ek(B.a2X,s,new A.amp(a),s)],r),q,B.a2y)},
+$1(a){var s=null,r=t.p,q=A.ck(A.b([B.a2B,B.bA,A.aKb(A.k(J.ah(this.a,"secret")),B.op),B.bA,A.lf(s,B.bm,!1,s,!0,B.D,s,A.ni(),this.b,s,s,s,s,s,2,B.Lq,B.a2,!0,s,s,!0,s,!1,s,B.b7,s,s,s,s,B.d5,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bI,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.af,s,B.c4,s,s,s,s)],r),B.E,B.B,B.ap)
+return A.lB(A.b([A.fA(B.em,s,s,new A.amo(a),s,s),A.ek(B.a2Y,s,new A.amp(a),s)],r),q,B.a2z)},
 $S:37}
 A.amo.prototype={
 $0(){A.c3(this.a,!1).ed(!1)
@@ -87323,7 +87323,7 @@ for(s=J.fZ(b,t.P),r=s.$ti,s=new A.b1(s,s.gA(0),r.i("b1<Y.E>")),q=this.a,r=r.i("Y
 if(p==null)p=r.a(p)
 o=J.aj(p)
 n=A.ag(A.k(o.h(p,"name"))+" ("+A.k(o.h(p,"platform"))+")",m,m,m,m,m,m,m,m)
-l.push(A.cM(!1,m,m,m,!0,m,m,m,!0,m,B.Lj,m,m,m,m,m,!1,m,m,m,m,m,A.ag("Last seen "+A.k(o.h(p,"last_seen_at")),m,m,m,m,m,m,m,m),m,n,m,A.fA(B.a3g,m,m,new A.amr(q,p,c,a),m,m),m))}return A.ck(l,B.E,B.B,B.Q)},
+l.push(A.cM(!1,m,m,m,!0,m,m,m,!0,m,B.Lj,m,m,m,m,m,!1,m,m,m,m,m,A.ag("Last seen "+A.k(o.h(p,"last_seen_at")),m,m,m,m,m,m,m,m),m,n,m,A.fA(B.a3h,m,m,new A.amr(q,p,c,a),m,m),m))}return A.ck(l,B.E,B.B,B.Q)},
 $S:161}
 A.amr.prototype={
 $0(){var s=0,r=A.G(t.H),q=1,p=[],o=this,n,m,l,k
@@ -87394,7 +87394,7 @@ return A.F($async$$0,r)},
 $S:7}
 A.amq.prototype={
 $1(a){var s=null
-return A.lB(A.b([A.fA(B.a22,s,s,new A.amm(a),s,s),A.ek(B.a2e,s,new A.amn(a),A.BW(B.an,s,s,s,s))],t.p),B.a2o,B.a2I)},
+return A.lB(A.b([A.fA(B.a22,s,s,new A.amm(a),s,s),A.ek(B.a2e,s,new A.amn(a),A.BW(B.an,s,s,s,s))],t.p),B.a2p,B.a2J)},
 $S:37}
 A.amm.prototype={
 $0(){A.c3(this.a,!1).ed(!1)
@@ -87409,7 +87409,7 @@ F(a){var s=null
 return new A.nQ(A.ag(this.c,s,s,s,s,s,s,s,s),A.ag(this.d,s,s,s,s,s,B.hH,s,s),A.b([new A.aF(B.JO,new A.dj(B.hS,s,s,A.ag(this.e,s,s,s,s,s,s,s,s),s),s)],t.p),s)}}
 A.TJ.prototype={
 F(a){var s=null,r=A.d4(a,!1,t.V).a
-return A.dU(A.eP(s,s,B.a3z),A.eX(A.b([B.UE,B.a6e,B.a6d,B.a6f,B.a6h,B.a6g,B.UH,B.K6,B.K5,B.K7,B.UG,new A.ef(new A.apz(r),new A.apA(),new A.apB(),"No tickets.",!0,s,s,t.TJ),B.am,A.ek(B.a3o,s,new A.apC(a,r),s),A.fA(B.a2w,s,s,new A.apD(),s,s)],t.p),B.bH,s,!1),s)}}
+return A.dU(A.eP(s,s,B.a3z),A.eX(A.b([B.UE,B.a6e,B.a6d,B.a6f,B.a6h,B.a6g,B.UH,B.K6,B.K5,B.K7,B.UG,new A.ef(new A.apz(r),new A.apA(),new A.apB(),"No tickets.",!0,s,s,t.TJ),B.am,A.ek(B.a3o,s,new A.apC(a,r),s),A.fA(B.a2x,s,s,new A.apD(),s,s)],t.p),B.bH,s,!1),s)}}
 A.apz.prototype={
 $0(){return this.a.F8()},
 $S:48}
@@ -87650,10 +87650,10 @@ i.push(g.ks("News blackout before","newsBeforeMin",0,120,5,b))
 i.push(g.ks("News blackout after","newsAfterMin",0,120,5,b))
 s=g.d
 s.toString
-i.push(A.xj(new A.aCN(g),B.a2Q,B.a2S,J.c(J.ah(s,"newsStalePolicy"),"BLOCK")))
+i.push(A.xj(new A.aCN(g),B.a2R,B.a2T,J.c(J.ah(s,"newsStalePolicy"),"BLOCK")))
 i.push(B.Uw)
 s=g.y
-i.push(A.dT(A.b([B.a38,A.fr(A.aQs(19,"$"+B.e.ae(s,0),20,1,new A.aCO(g),new A.aCP(g),s),1),A.ag("$"+B.e.ae(g.y,0),f,f,f,f,f,f,f,f)],m),B.E,B.B,B.Q,0))
+i.push(A.dT(A.b([B.a39,A.fr(A.aQs(19,"$"+B.e.ae(s,0),20,1,new A.aCO(g),new A.aCP(g),s),1),A.ag("$"+B.e.ae(g.y,0),f,f,f,f,f,f,f,f)],m),B.E,B.B,B.Q,0))
 if(g.w)i.push(B.Mi)
 else if(r)i.push(B.a2i)
 else{s=J.aj(q)
@@ -87688,7 +87688,7 @@ r.toString
 r=t.kc.a(J.ah(r,"notes"))
 r=r==null?s:J.a5_(r,"\n\n")
 r=A.ag(r==null?"":r,s,s,s,s,s,s,s,s)
-return A.lB(A.b([A.fA(B.a2_,s,s,new A.aCw(a),s,s),A.ek(B.a3e,s,new A.aCx(a),s)],t.p),r,B.a3B)},
+return A.lB(A.b([A.fA(B.a2_,s,s,new A.aCw(a),s,s),A.ek(B.a3f,s,new A.aCx(a),s)],t.p),r,B.a3B)},
 $S:37}
 A.aCw.prototype={
 $0(){A.c3(this.a,!1).ed(!1)
@@ -87787,7 +87787,7 @@ $1(a){return this.a.pD()},
 $S:32}
 A.T1.prototype={
 F(a){var s=null,r=A.d4(a,!1,t.V).a
-return new A.Bg(2,A.dU(A.eP(s,B.XY,B.a3k),new A.FU(A.b([new A.ef(new A.aoA(r),new A.aoB(),new A.aoC(),"No signals yet. Signals appear only when the strategy rules confirm a setup on a completed M15 candle.",!1,s,s,t.TJ),new A.ef(new A.aoD(r),new A.aoE(),s,"Nothing here yet.",!1,s,s,t.w8)],t.p),s),s),s)}}
+return new A.Bg(2,A.dU(A.eP(s,B.XY,B.a3l),new A.FU(A.b([new A.ef(new A.aoA(r),new A.aoB(),new A.aoC(),"No signals yet. Signals appear only when the strategy rules confirm a setup on a completed M15 candle.",!1,s,s,t.TJ),new A.ef(new A.aoD(r),new A.aoE(),s,"Nothing here yet.",!1,s,s,t.w8)],t.p),s),s),s)}}
 A.aoA.prototype={
 $0(){return this.a.zq()},
 $S:48}
@@ -87890,7 +87890,7 @@ case 5:return A.E(null,r)
 case 1:return A.D(p.at(-1),r)}})
 return A.F($async$vm,r)},
 F(a){var s=null,r=A.d4(a,!1,t.V).a,q=A.b([],t.p)
-return A.dU(A.eP(q,s,B.a2Y),new A.ef(new A.aEg(this,r),new A.aEh(this,r,a),s,"Nothing here yet.",!1,s,new A.cj(this.r,t.f3),t.WE),s)},
+return A.dU(A.eP(q,s,B.a2Z),new A.ef(new A.aEg(this,r),new A.aEh(this,r,a),s,"Nothing here yet.",!1,s,new A.cj(this.r,t.f3),t.WE),s)},
 anU(a){var s,r,q=J.aj(a),p=t.F5,o=p.a(q.h(a,"store_product_ids"))
 A.c5(o==null?null:J.ah(o,"google"))
 s=p.a(q.h(a,"prices"))
@@ -87938,7 +87938,7 @@ for(r=J.fZ(b.b,t.P),q=r.$ti,r=new A.b1(r,r.gA(0),q.i("b1<Y.E>")),q=q.i("Y.E");r.
 if(p==null)p=q.a(p)
 o=J.aj(p)
 n=A.ag(A.b_(o.h(p,"name")),l,l,l,l,l,B.fg,l,l)
-s.push(A.dL(A.cM(!1,l,l,l,!0,l,l,l,!0,!0,l,l,l,l,l,l,!1,l,l,l,l,l,A.ag(f.anU(p)+"\n"+A.k(o.h(p,"terms")),l,l,l,l,l,l,l,l),l,n,l,A.ek(B.a30,l,new A.aEd(f,p),A.BW(l,l,B.WZ,l,l)),l),l,l))}if(J.c(g.h(h,m),!0)&&J.c(g.h(h,i),"stripe")&&!J.c(g.h(h,j),!0))s.push(A.fA(B.a3x,l,l,new A.aEe(this.b,c,a),l,l))
+s.push(A.dL(A.cM(!1,l,l,l,!0,l,l,l,!0,!0,l,l,l,l,l,l,!1,l,l,l,l,l,A.ag(f.anU(p)+"\n"+A.k(o.h(p,"terms")),l,l,l,l,l,l,l,l),l,n,l,A.ek(B.a31,l,new A.aEd(f,p),A.BW(l,l,B.WZ,l,l)),l),l,l))}if(J.c(g.h(h,m),!0)&&J.c(g.h(h,i),"stripe")&&!J.c(g.h(h,j),!0))s.push(A.fA(B.a3x,l,l,new A.aEe(this.b,c,a),l,l))
 if(J.c(g.h(h,m),!0))g=J.c(g.h(h,i),"apple")||J.c(g.h(h,i),"google")
 else g=!1
 if(g)s.push(B.St)
@@ -88361,7 +88361,7 @@ A.aHc.prototype={
 $1(a){var s=this,r=null,q=A.ag(s.a,r,r,r,r,r,r,r,r),p=t.p,o=A.b([A.lf(r,B.bm,!1,r,!0,B.D,r,A.ni(),s.b,r,r,r,r,r,2,B.LB,B.a2,!0,r,r,!0,r,!1,r,B.b7,r,r,r,r,r,r,r,r,1,r,r,!0,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.bI,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.af,r,B.c4,r,r,r,r)],p)
 if(s.c)B.c.S(o,A.b([B.bA,A.lf(r,B.bm,!1,r,!0,B.D,r,A.ni(),s.d,r,r,r,r,r,2,B.Lr,B.a2,!0,r,r,!0,r,!1,r,B.b7,r,r,r,r,B.d5,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.bI,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.af,r,B.c4,r,r,r,r)],p))
 o=A.ck(o,B.E,B.B,B.ap)
-return A.lB(A.b([A.fA(B.em,r,r,new A.aHa(a),r,r),A.ek(B.a2q,r,new A.aHb(a),r)],p),o,q)},
+return A.lB(A.b([A.fA(B.em,r,r,new A.aHa(a),r,r),A.ek(B.a2r,r,new A.aHb(a),r)],p),o,q)},
 $S:37}
 A.aHa.prototype={
 $0(){A.c3(this.a,!1).ed(!1)
@@ -96099,7 +96099,7 @@ r.f=s.d},
 $S:0}
 A.Qa.prototype={
 F(a){var s=this.c.Z(0,new A.h(0,40.95))
-return A.aPR(A.NA(null,B.I7,!0),B.D,new A.w3(1,B.Ow,new A.cX(B.EI,B.v)),s,1.25,B.X2)}}
+return A.aPR(A.NA(null,B.I7,!0),B.D,new A.w3(1,B.Ox,new A.cX(B.EI,B.v)),s,1.25,B.X2)}}
 A.rq.prototype={
 I(){return"MaterialType."+this.b}}
 A.Dc.prototype={
@@ -102028,7 +102028,7 @@ gc7(){return new A.aD(new A.aEj(this),t.e)},
 gBQ(){return 14},
 gDE(){return 14},
 gEB(){return 14},
-gF6(){return B.OO},
+gF6(){return B.OP},
 gur(){return 31},
 gut(){return 51},
 gFi(){return B.WT},
@@ -108963,8 +108963,8 @@ B.H8=new A.a33()
 B.a7x=new A.a6t(0,"pixel")
 B.Hc=new A.qe(null,null,null,null,null,null,null)
 B.bI=new A.aH(20,20,20,20)
-B.a3n=new A.a5("Add your MT5 account (start with a demo account), then connect the EA from your Windows VPS.",null,null,null,null,null,null,null,null,null)
-B.Sp=new A.aF(B.bI,B.a3n,null)
+B.a2o=new A.a5('Add your MT5 account (Accounts > Add > "We run it for you"). Start with a demo account.',null,null,null,null,null,null,null,null,null)
+B.Sp=new A.aF(B.bI,B.a2o,null)
 B.a7S=new A.aue(0,"elevated")
 B.Hd=new A.lJ(null,B.Sp,null)
 B.He=new A.AA(null,null,null,null,null,null)
@@ -109434,13 +109434,13 @@ B.K4=new A.vF(null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a3q=new A.a5("Why was a trade rejected?",null,null,null,null,null,null,null,null,null)
 B.a1V=new A.a5("Common reasons: daily lock reached, spread too wide, news blackout, outside session, or the broker minimum lot would risk more than your settings allow. The EA journal shows the exact reason.",null,null,null,null,null,null,null,null,null)
 B.So=new A.aF(B.cc,B.a1V,null)
-B.Ox=s([B.So],t.p)
-B.K5=new A.nQ(B.a3q,null,B.Ox,null)
-B.a2H=new A.a5("The EA shows offline",null,null,null,null,null,null,null,null,null)
+B.Oy=s([B.So],t.p)
+B.K5=new A.nQ(B.a3q,null,B.Oy,null)
+B.a2I=new A.a5("The EA shows offline",null,null,null,null,null,null,null,null,null)
 B.a2n=new A.a5("Check the Windows VPS is running, MT5 is logged in, Algo Trading is enabled, and the backend URL is allowed under Tools > Options > Expert Advisors > WebRequest.",null,null,null,null,null,null,null,null,null)
 B.Sg=new A.aF(B.cc,B.a2n,null)
 B.Nt=s([B.Sg],t.p)
-B.K6=new A.nQ(B.a2H,null,B.Nt,null)
+B.K6=new A.nQ(B.a2I,null,B.Nt,null)
 B.a3D=new A.a5("Can I trade with $50?",null,null,null,null,null,null,null,null,null)
 B.a1W=new A.a5("Yes, with a Cent account (see Setup guide, step 4). On a normal account the broker minimum lot is too large for $50, so the EA refuses trades. Use the risk preview: if it says trades would be rejected, the EA will not trade.",null,null,null,null,null,null,null,null,null)
 B.Sm=new A.aF(B.cc,B.a1W,null)
@@ -109728,8 +109728,8 @@ B.Ee=new A.Ju(1,"anonymous")
 B.N0=s([B.oV,B.Ee],A.aB("I<Ju>"))
 B.NP=s([0.41233895,0.35762064,0.18051042],t.n)
 B.Np=s([0.2126,0.7152,0.0722],t.n)
-B.OP=s([0.01932141,0.11916382,0.95034478],t.n)
-B.N2=s([B.NP,B.Np,B.OP],t.zg)
+B.OQ=s([0.01932141,0.11916382,0.95034478],t.n)
+B.N2=s([B.NP,B.Np,B.OQ],t.zg)
 B.rJ=s([0,4,12,1,5,13,3,7,15],t.t)
 B.N6=s([65533],t.t)
 B.a6j=new A.hU(0,1)
@@ -109744,8 +109744,8 @@ B.a6q=new A.hU(0.925,0.5)
 B.a6k=new A.hU(0.9625,0.75)
 B.a6l=new A.hU(1,1)
 B.Nd=s([B.a6j,B.a6o,B.a6r,B.a6t,B.a6p,B.a6n,B.a6m,B.a6s,B.a6q,B.a6k,B.a6l],A.aB("I<hU>"))
-B.a3c=new A.a5("Day",null,null,null,null,null,null,null,null,null)
-B.FG=new A.eQ("daily",B.a3c,t.Zx)
+B.a3d=new A.a5("Day",null,null,null,null,null,null,null,null,null)
+B.FG=new A.eQ("daily",B.a3d,t.Zx)
 B.a3s=new A.a5("Week",null,null,null,null,null,null,null,null,null)
 B.FI=new A.eQ("weekly",B.a3s,t.Zx)
 B.a2j=new A.a5("Month",null,null,null,null,null,null,null,null,null)
@@ -109763,7 +109763,7 @@ B.Nf=s([B.d4,B.ff,B.cH,B.hE,B.af,B.kk],A.aB("I<mH>"))
 B.NB=s([2,1.13276676],t.n)
 B.Mv=s([2.18349805,1.20311921],t.n)
 B.Ot=s([2.33888662,1.28698796],t.n)
-B.Ov=s([2.48660575,1.36351941],t.n)
+B.Ow=s([2.48660575,1.36351941],t.n)
 B.Nk=s([2.62226596,1.44717976],t.n)
 B.Ns=s([2.7514899,1.53385819],t.n)
 B.O1=s([3.36298265,1.98288283],t.n)
@@ -109771,7 +109771,7 @@ B.NF=s([4.08649929,2.23811846],t.n)
 B.NR=s([4.85481134,2.47563463],t.n)
 B.No=s([5.62945551,2.72948597],t.n)
 B.NC=s([6.43023796,2.98020421],t.n)
-B.rK=s([B.NB,B.Mv,B.Ot,B.Ov,B.Nk,B.Ns,B.O1,B.NF,B.NR,B.No,B.NC],t.zg)
+B.rK=s([B.NB,B.Mv,B.Ot,B.Ow,B.Nk,B.Ns,B.O1,B.NF,B.NR,B.No,B.NC],t.zg)
 B.Ni=s(["Arial"],t.s)
 B.Nj=s([B.l2,B.l3],A.aB("I<Aa>"))
 B.Nl=s(["-apple-system","BlinkMacSystemFont"],t.s)
@@ -109785,15 +109785,15 @@ B.rM=s([B.II,B.VV,B.R8,B.Tm],A.aB("I<a8>"))
 B.Nv=s(["Noto Color Emoji","Noto Sans Symbols","Noto Sans SC","Noto Sans TC","Noto Sans HK","Noto Sans JP","Noto Sans KR"],t.s)
 B.a1R=new A.a5("Demo",null,null,null,null,null,null,null,null,null)
 B.FF=new A.eQ("demo",B.a1R,t.Zx)
-B.a2t=new A.a5("Real",null,null,null,null,null,null,null,null,null)
-B.FJ=new A.eQ("real",B.a2t,t.Zx)
+B.a2u=new A.a5("Real",null,null,null,null,null,null,null,null,null)
+B.FJ=new A.eQ("real",B.a2u,t.Zx)
 B.Nx=s([B.FF,B.FJ],t.CK)
 B.a3p=new A.a5("London (07:00\u201316:00 UTC)",null,null,null,null,null,null,null,null,null)
 B.J6=new A.jC("LONDON",B.a3p,B.cK,null,t.b7)
-B.a3a=new A.a5("New York (12:30\u201321:00 UTC)",null,null,null,null,null,null,null,null,null)
-B.J7=new A.jC("NEWYORK",B.a3a,B.cK,null,t.b7)
-B.a2W=new A.a5("London + New York",null,null,null,null,null,null,null,null,null)
-B.J5=new A.jC("BOTH",B.a2W,B.cK,null,t.b7)
+B.a3b=new A.a5("New York (12:30\u201321:00 UTC)",null,null,null,null,null,null,null,null,null)
+B.J7=new A.jC("NEWYORK",B.a3b,B.cK,null,t.b7)
+B.a2X=new A.a5("London + New York",null,null,null,null,null,null,null,null,null)
+B.J5=new A.jC("BOTH",B.a2X,B.cK,null,t.b7)
 B.a3w=new A.a5("Custom (UTC)",null,null,null,null,null,null,null,null,null)
 B.J8=new A.jC("CUSTOM",B.a3w,B.cK,null,t.b7)
 B.Ny=s([B.J6,B.J7,B.J5,B.J8],A.aB("I<jC<l>>"))
@@ -109835,10 +109835,10 @@ B.NS=s([B.ac,B.l],A.aB("I<G2>"))
 B.ai=new A.tA(0,"rtl")
 B.R=new A.tA(1,"ltr")
 B.mU=s([B.ai,B.R],A.aB("I<tA>"))
-B.a2Z=new A.a5("We run it for you",null,null,null,null,null,null,null,null,null)
-B.FM=new A.eQ(!0,B.a2Z,t.Mt)
-B.a3m=new A.a5("My own MT5",null,null,null,null,null,null,null,null,null)
-B.FH=new A.eQ(!1,B.a3m,t.Mt)
+B.a3_=new A.a5("We run it for you",null,null,null,null,null,null,null,null,null)
+B.FM=new A.eQ(!0,B.a3_,t.Mt)
+B.a3n=new A.a5("My own MT5",null,null,null,null,null,null,null,null,null)
+B.FH=new A.eQ(!1,B.a3n,t.Mt)
 B.NT=s([B.FM,B.FH],A.aB("I<eQ<J>>"))
 B.H9=new A.uQ(0,"auto")
 B.Ha=new A.uQ(1,"full")
@@ -109849,8 +109849,8 @@ B.c7=new A.ke(1,"title")
 B.dE=new A.ke(2,"subtitle")
 B.fo=new A.ke(3,"trailing")
 B.O_=s([B.dD,B.c7,B.dE,B.fo],A.aB("I<ke>"))
-B.a2M=new A.a5("Risk-based lots",null,null,null,null,null,null,null,null,null)
-B.FN=new A.eQ("RISK",B.a2M,t.Zx)
+B.a2N=new A.a5("Risk-based lots",null,null,null,null,null,null,null,null,null)
+B.FN=new A.eQ("RISK",B.a2N,t.Zx)
 B.a2m=new A.a5("Fixed lot",null,null,null,null,null,null,null,null,null)
 B.FE=new A.eQ("FIXED",B.a2m,t.Zx)
 B.O0=s([B.FN,B.FE],t.CK)
@@ -109875,12 +109875,12 @@ B.KU=new A.bp(61345,"MaterialIcons",!1)
 B.Kr=new A.bp(57777,"MaterialIcons",!1)
 B.U1=new A.dY(B.KU,B.Kr,"Dashboard")
 B.rn=new A.bp(58783,"MaterialIcons",!0)
-B.U_=new A.dY(B.rn,B.rn,"Signals")
+B.U0=new A.dY(B.rn,B.rn,"Signals")
 B.KE=new A.bp(58447,"MaterialIcons",!1)
 B.TW=new A.dY(B.rl,B.KE,"Alerts")
 B.KF=new A.bp(58519,"MaterialIcons",!1)
-B.TX=new A.dY(B.KF,B.rm,"Profile")
-B.rS=s([B.U1,B.U_,B.TW,B.TX],A.aB("I<+(bp,bp,l)>"))
+B.TY=new A.dY(B.KF,B.rm,"Profile")
+B.rS=s([B.U1,B.U0,B.TW,B.TY],A.aB("I<+(bp,bp,l)>"))
 B.Oe=s(["email"],t.s)
 B.Ol=s([],t.QP)
 B.rT=s([],t.F)
@@ -109902,19 +109902,27 @@ B.a7H=s([],t.p)
 B.Of=s([],t.t)
 B.rU=s([],t.ee)
 B.Oi=s([],t._m)
+B.Km=new A.bp(57534,"MaterialIcons",!1)
+B.TX=new A.dY(B.Km,"XAUUSD, EURUSD, USDJPY. Fully automatic.","Add your MT5 account (any broker, from $50) and we run LABEED GOLD AI for you on our server, nothing to buy or install. Scalping or Sniper, with a stop loss on every trade.")
+B.TZ=new A.dY(B.ro,"Daily risk lock you control","Set a daily profit target and maximum loss. When either is reached, the EA closes its own trades and stops until the next broker trading day, even after restarts.")
+B.KG=new A.bp(58544,"MaterialIcons",!1)
+B.U2=new A.dY(B.KG,"Your phone is the remote, not the engine","The EA keeps running when this app is closed. Use the app to start, stop or emergency-stop, and to watch every result in real time.")
+B.L_=new A.bp(983712,"MaterialIcons",!1)
+B.U_=new A.dY(B.L_,"No guarantees","Trading with leverage can lose money quickly. LABEED GOLD AI never guarantees profit. Start on a demo account.")
+B.Ou=s([B.TX,B.TZ,B.U2,B.U_],A.aB("I<+(bp,l,l)>"))
 B.jz=new A.h(0,2)
 B.Fc=new A.bF(0.75,B.W,B.q2,B.jz,1.5)
-B.Ow=s([B.Fc],t.F)
-B.OC=s([47,47,47,47,72,97,122,147],t.t)
+B.Ox=s([B.Fc],t.F)
+B.OD=s([47,47,47,47,72,97,122,147],t.t)
 B.h0=s([B.dF,B.cL,B.hT,B.hU,B.l1],t.QP)
-B.OF=s(["password"],t.s)
-B.OG=s(["push","telegram","whatsapp"],t.s)
+B.OG=s(["password"],t.s)
+B.OH=s(["push","telegram","whatsapp"],t.s)
 B.N8=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
 B.Oc=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.Nm=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.OJ=s([B.N8,B.Oc,B.Nm],t.zg)
-B.OK=s([45,95,45,20,45,90,45,45,45],t.n)
-B.OL=s([120,120,20,45,20,15,20,120,120],t.n)
+B.OK=s([B.N8,B.Oc,B.Nm],t.zg)
+B.OL=s([45,95,45,20,45,90,45,45,45],t.n)
+B.OM=s([120,120,20,45,20,15,20,120,120],t.n)
 B.eX=new A.ih(0,"controlModifier")
 B.eY=new A.ih(1,"shiftModifier")
 B.eZ=new A.ih(2,"altModifier")
@@ -109931,23 +109939,15 @@ B.dq=new A.h(0,3)
 B.Fg=new A.bF(0,B.W,B.HA,B.dq,8)
 B.Ic=new A.B(0.058823529411764705,0,0,0,B.f)
 B.Fp=new A.bF(0,B.W,B.Ic,B.dq,1)
-B.OO=s([B.Fg,B.Fp],t.F)
-B.OQ=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
+B.OP=s([B.Fg,B.Fp],t.F)
+B.OR=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.mK=new A.hy(100)
 B.Kd=new A.hy(200)
 B.Ke=new A.hy(300)
 B.ao=new A.hy(500)
 B.r9=new A.hy(900)
-B.OS=s([B.mK,B.Kd,B.Ke,B.A,B.ao,B.j6,B.bw,B.j7,B.r9],A.aB("I<hy>"))
-B.OT=s([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623444424209313,0.13658714259697685,0.16693984095186062,0.19729253930674434,0.2276452376616281,0.2579979360165119,0.28835063437139563,0.3188300904430532,0.350925934958123,0.3848314933096426,0.42057480301049466,0.458183274052838,0.4976837250274023,0.5391024159806381,0.5824650784040898,0.6277969426914107,0.6751227633498623,0.7244668422128921,0.775853049866786,0.829304845476233,0.8848452951698498,0.942497089126609,1.0022825574869039,1.0642236851973577,1.1283421258858297,1.1946592148522128,1.2631959812511864,1.3339731595349034,1.407011200216447,1.4823302800086415,1.5599503113873272,1.6398909516233677,1.7221716113234105,1.8068114625156377,1.8938294463134073,1.9832442801866852,2.075074464868551,2.1693382909216234,2.2660538449872063,2.36523901573795,2.4669114995532007,2.5710888059345764,2.6777882626779785,2.7870270208169257,2.898822059350997,3.0131901897720907,3.1301480604002863,3.2497121605402226,3.3718988244681087,3.4967242352587946,3.624204428461639,3.754355295633311,3.887192587735158,4.022731918402185,4.160988767090289,4.301978482107941,4.445716283538092,4.592217266055746,4.741496401646282,4.893568542229298,5.048448422192488,5.20615066083972,5.3666897647573375,5.5300801301023865,5.696336044816294,5.865471690767354,6.037501145825082,6.212438385869475,6.390297286737924,6.571091626112461,6.7548350853498045,6.941541251256611,7.131223617812143,7.323895587840543,7.5195704746346665,7.7182615035334345,7.919981813454504,8.124744458384042,8.332562408825165,8.543448553206703,8.757415699253682,8.974476575321063,9.194643831691977,9.417930041841839,9.644347703669503,9.873909240696694,10.106627003236781,10.342513269534024,10.58158024687427,10.8238400726681,11.069304815507364,11.317986476196008,11.569896988756009,11.825048221409341,12.083451977536606,12.345119996613247,12.610063955123938,12.878295467455942,13.149826086772048,13.42466730586372,13.702830557985108,13.984327217668513,14.269168601521828,14.55736596900856,14.848930523210871,15.143873411576273,15.44220572664832,15.743938506781891,16.04908273684337,16.35764934889634,16.66964922287304,16.985093187232053,17.30399201960269,17.62635644741625,17.95219714852476,18.281524751807332,18.614349837764564,18.95068293910138,19.290534541298456,19.633915083172692,19.98083495742689,20.331304511189067,20.685334046541502,21.042933821039977,21.404114048223256,21.76888489811322,22.137256497705877,22.50923893145328,22.884842241736916,23.264076429332462,23.6469514538663,24.033477234264016,24.42366364919083,24.817520537484558,25.21505769858089,25.61628489293138,26.021211842414342,26.429848230738664,26.842203703840827,27.258287870275353,27.678110301598522,28.10168053274597,28.529008062403893,28.96010235337422,29.39497283293396,29.83362889318845,30.276079891419332,30.722335150426627,31.172403958865512,31.62629557157785,32.08401920991837,32.54558406207592,33.010999283389665,33.4802739966603,33.953417292456834,34.430438229418264,34.911345834551085,35.39614910352207,35.88485700094671,36.37747846067349,36.87402238606382,37.37449765026789,37.87891309649659,38.38727753828926,38.89959975977785,39.41588851594697,39.93615253289054,40.460400508064545,40.98864111053629,41.520882981230194,42.05713473317016,42.597404951718396,43.141702194811224,43.6900349931913,44.24241185063697,44.798841244188324,45.35933162437017,45.92389141541209,46.49252901546552,47.065252796817916,47.64207110610409,48.22299226451468,48.808024568002054,49.3971762874833,49.9904556690408,50.587870934119984,51.189430279724725,51.79514187861014,52.40501387947288,53.0190544071392,53.637271562750364,54.259673423945976,54.88626804504493,55.517063457223934,56.15206766869424,56.79128866487574,57.43473440856916,58.08241284012621,58.734331877617365,59.39049941699807,60.05092333227251,60.715611475655585,61.38457167773311,62.057811747619894,62.7353394731159,63.417162620860914,64.10328893648692,64.79372614476921,65.48848194977529,66.18756403501224,66.89098006357258,67.59873767827808,68.31084450182222,69.02730813691093,69.74813616640164,70.47333615344107,71.20291564160104,71.93688215501312,72.67524319850172,73.41800625771542,74.16517879925733,74.9167682708136,75.67278210128072,76.43322770089146,77.1981124613393,77.96744375590167,78.74122893956174,79.51947534912904,80.30219030335869,81.08938110306934,81.88105503125999,82.67721935322541,83.4778813166706,84.28304815182372,85.09272707154808,85.90692527145302,86.72564993000343,87.54890820862819,88.3767072518277,89.2090541872801,90.04595612594655,90.88742016217518,91.73345337380438,92.58406282226491,93.43925555268066,94.29903859396902,95.16341895893969,96.03240364439274,96.9059996312159,97.78421388448044,98.6670533535366,99.55452497210776],t.n)
-B.Km=new A.bp(57534,"MaterialIcons",!1)
-B.U0=new A.dY(B.Km,"Gold only. M15. Fully automatic.","The LABEED GOLD AI Expert Advisor runs inside your own MT5 terminal on a Windows VPS. It trades XAUUSD only, with a stop loss on every trade.")
-B.TY=new A.dY(B.ro,"Daily risk lock you control","Set a daily profit target and maximum loss. When either is reached, the EA closes its own trades and stops until the next broker trading day, even after restarts.")
-B.KG=new A.bp(58544,"MaterialIcons",!1)
-B.U2=new A.dY(B.KG,"Your phone is the remote, not the engine","The EA keeps running when this app is closed. Use the app to start, stop or emergency-stop, and to watch every result in real time.")
-B.L_=new A.bp(983712,"MaterialIcons",!1)
-B.TZ=new A.dY(B.L_,"No guarantees","Trading gold with leverage can lose money quickly. LABEED GOLD AI never guarantees profit. Start on a demo account.")
-B.OU=s([B.U0,B.TY,B.U2,B.TZ],A.aB("I<+(bp,l,l)>"))
+B.OT=s([B.mK,B.Kd,B.Ke,B.A,B.ao,B.j6,B.bw,B.j7,B.r9],A.aB("I<hy>"))
+B.OU=s([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623444424209313,0.13658714259697685,0.16693984095186062,0.19729253930674434,0.2276452376616281,0.2579979360165119,0.28835063437139563,0.3188300904430532,0.350925934958123,0.3848314933096426,0.42057480301049466,0.458183274052838,0.4976837250274023,0.5391024159806381,0.5824650784040898,0.6277969426914107,0.6751227633498623,0.7244668422128921,0.775853049866786,0.829304845476233,0.8848452951698498,0.942497089126609,1.0022825574869039,1.0642236851973577,1.1283421258858297,1.1946592148522128,1.2631959812511864,1.3339731595349034,1.407011200216447,1.4823302800086415,1.5599503113873272,1.6398909516233677,1.7221716113234105,1.8068114625156377,1.8938294463134073,1.9832442801866852,2.075074464868551,2.1693382909216234,2.2660538449872063,2.36523901573795,2.4669114995532007,2.5710888059345764,2.6777882626779785,2.7870270208169257,2.898822059350997,3.0131901897720907,3.1301480604002863,3.2497121605402226,3.3718988244681087,3.4967242352587946,3.624204428461639,3.754355295633311,3.887192587735158,4.022731918402185,4.160988767090289,4.301978482107941,4.445716283538092,4.592217266055746,4.741496401646282,4.893568542229298,5.048448422192488,5.20615066083972,5.3666897647573375,5.5300801301023865,5.696336044816294,5.865471690767354,6.037501145825082,6.212438385869475,6.390297286737924,6.571091626112461,6.7548350853498045,6.941541251256611,7.131223617812143,7.323895587840543,7.5195704746346665,7.7182615035334345,7.919981813454504,8.124744458384042,8.332562408825165,8.543448553206703,8.757415699253682,8.974476575321063,9.194643831691977,9.417930041841839,9.644347703669503,9.873909240696694,10.106627003236781,10.342513269534024,10.58158024687427,10.8238400726681,11.069304815507364,11.317986476196008,11.569896988756009,11.825048221409341,12.083451977536606,12.345119996613247,12.610063955123938,12.878295467455942,13.149826086772048,13.42466730586372,13.702830557985108,13.984327217668513,14.269168601521828,14.55736596900856,14.848930523210871,15.143873411576273,15.44220572664832,15.743938506781891,16.04908273684337,16.35764934889634,16.66964922287304,16.985093187232053,17.30399201960269,17.62635644741625,17.95219714852476,18.281524751807332,18.614349837764564,18.95068293910138,19.290534541298456,19.633915083172692,19.98083495742689,20.331304511189067,20.685334046541502,21.042933821039977,21.404114048223256,21.76888489811322,22.137256497705877,22.50923893145328,22.884842241736916,23.264076429332462,23.6469514538663,24.033477234264016,24.42366364919083,24.817520537484558,25.21505769858089,25.61628489293138,26.021211842414342,26.429848230738664,26.842203703840827,27.258287870275353,27.678110301598522,28.10168053274597,28.529008062403893,28.96010235337422,29.39497283293396,29.83362889318845,30.276079891419332,30.722335150426627,31.172403958865512,31.62629557157785,32.08401920991837,32.54558406207592,33.010999283389665,33.4802739966603,33.953417292456834,34.430438229418264,34.911345834551085,35.39614910352207,35.88485700094671,36.37747846067349,36.87402238606382,37.37449765026789,37.87891309649659,38.38727753828926,38.89959975977785,39.41588851594697,39.93615253289054,40.460400508064545,40.98864111053629,41.520882981230194,42.05713473317016,42.597404951718396,43.141702194811224,43.6900349931913,44.24241185063697,44.798841244188324,45.35933162437017,45.92389141541209,46.49252901546552,47.065252796817916,47.64207110610409,48.22299226451468,48.808024568002054,49.3971762874833,49.9904556690408,50.587870934119984,51.189430279724725,51.79514187861014,52.40501387947288,53.0190544071392,53.637271562750364,54.259673423945976,54.88626804504493,55.517063457223934,56.15206766869424,56.79128866487574,57.43473440856916,58.08241284012621,58.734331877617365,59.39049941699807,60.05092333227251,60.715611475655585,61.38457167773311,62.057811747619894,62.7353394731159,63.417162620860914,64.10328893648692,64.79372614476921,65.48848194977529,66.18756403501224,66.89098006357258,67.59873767827808,68.31084450182222,69.02730813691093,69.74813616640164,70.47333615344107,71.20291564160104,71.93688215501312,72.67524319850172,73.41800625771542,74.16517879925733,74.9167682708136,75.67278210128072,76.43322770089146,77.1981124613393,77.96744375590167,78.74122893956174,79.51947534912904,80.30219030335869,81.08938110306934,81.88105503125999,82.67721935322541,83.4778813166706,84.28304815182372,85.09272707154808,85.90692527145302,86.72564993000343,87.54890820862819,88.3767072518277,89.2090541872801,90.04595612594655,90.88742016217518,91.73345337380438,92.58406282226491,93.43925555268066,94.29903859396902,95.16341895893969,96.03240364439274,96.9059996312159,97.78421388448044,98.6670533535366,99.55452497210776],t.n)
 B.TJ=new A.a7(0.7078,8.3194)
 B.TA=new A.a7(0.7895,2.4523)
 B.TV=new A.a7(0.8379,1.8528)
@@ -110008,7 +110008,7 @@ B.cv=new A.B(0.1411764705882353,0,0,0,B.f)
 B.cF=new A.h(0,1)
 B.F2=new A.bF(0,B.W,B.cv,B.cF,1)
 B.Fa=new A.bF(0,B.W,B.cb,B.cF,3)
-B.OE=s([B.Fb,B.F2,B.Fa],t.F)
+B.OF=s([B.Fb,B.F2,B.Fa],t.F)
 B.F9=new A.bF(-2,B.W,B.cu,B.dq,1)
 B.Fm=new A.bF(0,B.W,B.cv,B.jz,2)
 B.F4=new A.bF(0,B.W,B.cb,B.cF,5)
@@ -110016,7 +110016,7 @@ B.Ng=s([B.F9,B.Fm,B.F4],t.F)
 B.F3=new A.bF(-2,B.W,B.cu,B.dq,3)
 B.F6=new A.bF(0,B.W,B.cv,B.dq,4)
 B.Fw=new A.bF(0,B.W,B.cb,B.cF,8)
-B.Oy=s([B.F3,B.F6,B.Fw],t.F)
+B.Oz=s([B.F3,B.F6,B.Fw],t.F)
 B.F8=new A.bF(-1,B.W,B.cu,B.jz,4)
 B.y8=new A.h(0,4)
 B.Fi=new A.bF(0,B.W,B.cv,B.y8,5)
@@ -110055,7 +110055,7 @@ B.Rz=new A.h(0,24)
 B.Fr=new A.bF(3,B.W,B.cv,B.Rz,38)
 B.Fk=new A.bF(8,B.W,B.cb,B.ya,46)
 B.NN=s([B.F7,B.Fr,B.Fk],t.F)
-B.Qq=new A.cH([0,B.rT,1,B.OE,2,B.Ng,3,B.Oy,4,B.Mu,6,B.Nr,8,B.MQ,9,B.N5,12,B.NA,16,B.Nz,24,B.NN],A.aB("cH<u,O<bF>>"))
+B.Qq=new A.cH([0,B.rT,1,B.OF,2,B.Ng,3,B.Oz,4,B.Mu,6,B.Nr,8,B.MQ,9,B.N5,12,B.NA,16,B.Nz,24,B.NN],A.aB("cH<u,O<bF>>"))
 B.nX=new A.au(B.cd,!1,!1,!0,!1,B.r)
 B.ce=new A.i(4294968066)
 B.nU=new A.au(B.ce,!1,!1,!0,!1,B.r)
@@ -110649,34 +110649,34 @@ B.Or=s([B.xx,null,null,B.xM],t.L)
 B.Nw=s([B.xy,null,null,B.xN],t.L)
 B.NZ=s([B.xz,null,null,B.e2],t.L)
 B.Mn=s([B.xA,null,null,B.xO],t.L)
-B.OH=s([B.xB,null,null,B.n5],t.L)
-B.OD=s([B.xC,null,null,B.h9],t.L)
+B.OI=s([B.xB,null,null,B.n5],t.L)
+B.OE=s([B.xC,null,null,B.h9],t.L)
 B.N7=s([B.xD,null,null,B.e3],t.L)
-B.ON=s([B.xE,null,null,B.ha],t.L)
-B.OB=s([B.xF,null,null,B.e4],t.L)
+B.OO=s([B.xE,null,null,B.ha],t.L)
+B.OC=s([B.xF,null,null,B.e4],t.L)
 B.N4=s([B.xG,null,null,B.n6],t.L)
 B.Ms=s([B.xH,null,null,B.e5],t.L)
 B.Nh=s([B.xI,null,null,B.hb],t.L)
 B.Os=s([B.xJ,null,null,B.e6],t.L)
-B.Ou=s([B.xK,null,null,B.hc],t.L)
+B.Ov=s([B.xK,null,null,B.hc],t.L)
 B.N9=s([B.h7,B.h7,B.jn,null],t.L)
-B.OI=s([B.jj,null,B.jj,null],t.L)
+B.OJ=s([B.jj,null,B.jj,null],t.L)
 B.NG=s([B.cd,null,null,B.e3],t.L)
 B.NH=s([B.ce,null,null,B.e4],t.L)
 B.NI=s([B.cf,null,null,B.e5],t.L)
-B.OM=s([B.cg,null,null,B.e6],t.L)
-B.Oz=s([B.n_,null,null,B.n6],t.L)
+B.ON=s([B.cg,null,null,B.e6],t.L)
+B.OA=s([B.n_,null,null,B.n6],t.L)
 B.Na=s([B.h6,B.h6,B.jm,null],t.L)
 B.O8=s([B.bo,null,null,B.e2],t.L)
 B.NJ=s([B.e_,null,null,B.h9],t.L)
 B.N3=s([B.ji,null,null,B.n4],t.L)
 B.NK=s([B.e0,null,null,B.hb],t.L)
-B.OA=s([B.h5,null,null,B.n5],t.L)
+B.OB=s([B.h5,null,null,B.n5],t.L)
 B.Nb=s([B.h8,B.h8,B.jo,null],t.L)
 B.NL=s([B.h3,null,null,B.ha],t.L)
 B.Od=s([B.h4,null,null,B.hc],t.L)
 B.Nc=s([B.dp,B.dp,B.e1,null],t.L)
-B.QH=new A.cH(["*",B.MZ,"+",B.Or,"-",B.Nw,".",B.NZ,"/",B.Mn,"0",B.OH,"1",B.OD,"2",B.N7,"3",B.ON,"4",B.OB,"5",B.N4,"6",B.Ms,"7",B.Nh,"8",B.Os,"9",B.Ou,"Alt",B.N9,"AltGraph",B.OI,"ArrowDown",B.NG,"ArrowLeft",B.NH,"ArrowRight",B.NI,"ArrowUp",B.OM,"Clear",B.Oz,"Control",B.Na,"Delete",B.O8,"End",B.NJ,"Enter",B.N3,"Home",B.NK,"Insert",B.OA,"Meta",B.Nb,"PageDown",B.NL,"PageUp",B.Od,"Shift",B.Nc],A.aB("cH<l,O<i?>>"))
+B.QH=new A.cH(["*",B.MZ,"+",B.Or,"-",B.Nw,".",B.NZ,"/",B.Mn,"0",B.OI,"1",B.OE,"2",B.N7,"3",B.OO,"4",B.OC,"5",B.N4,"6",B.Ms,"7",B.Nh,"8",B.Os,"9",B.Ov,"Alt",B.N9,"AltGraph",B.OJ,"ArrowDown",B.NG,"ArrowLeft",B.NH,"ArrowRight",B.NI,"ArrowUp",B.ON,"Clear",B.OA,"Control",B.Na,"Delete",B.O8,"End",B.NJ,"Enter",B.N3,"Home",B.NK,"Insert",B.OB,"Meta",B.Nb,"PageDown",B.NL,"PageUp",B.Od,"Shift",B.Nc],A.aB("cH<l,O<i?>>"))
 B.Rl={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.nb=new A.bU(B.Rl,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.FW=new A.ny()
@@ -110690,8 +110690,8 @@ B.O2=s(["Noto Sans HK","Noto Sans TC"],t.s)
 B.N1=s(["Noto Sans JP"],t.s)
 B.Mt=s(["Noto Sans KR"],t.s)
 B.rR=s(["Noto Sans SC"],t.s)
-B.OR=s(["Noto Sans SC","Noto Sans TC"],t.s)
-B.jv=new A.bU(B.Ri,[B.mT,B.mT,B.mT,B.O2,B.N1,B.Mt,B.rR,B.rR,B.OR],t.VJ)
+B.OS=s(["Noto Sans SC","Noto Sans TC"],t.s)
+B.jv=new A.bU(B.Ri,[B.mT,B.mT,B.mT,B.O2,B.N1,B.Mt,B.rR,B.rR,B.OS],t.VJ)
 B.Rd={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.B1=new A.w(458907)
 B.AI=new A.w(458873)
@@ -111105,30 +111105,30 @@ B.a2b=new A.a5("LG",null,B.a0q,null,null,null,null,null,null,null)
 B.Hl=new A.AG(B.a2b,null)
 B.Sk=new A.aF(B.JK,B.Hl,null)
 B.ZT=new A.o(!0,B.cy,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a2u=new A.a5("Real-money trading stays OFF until you explicitly enable it after testing on demo.",null,B.ZT,null,null,null,null,null,null,null)
-B.Sl=new A.aF(B.eK,B.a2u,null)
+B.a2v=new A.a5("Real-money trading stays OFF until you explicitly enable it after testing on demo.",null,B.ZT,null,null,null,null,null,null,null)
+B.Sl=new A.aF(B.eK,B.a2v,null)
 B.a25=new A.a5("The confirmation score counts how many strategy rules agree. It is not a probability of winning.",null,B.hG,null,null,null,null,null,null,null)
 B.Sn=new A.aF(B.dU,B.a25,null)
 B.JF=new A.aH(0,0,0,8)
 B.cl=new A.aru(1,"down")
 B.Lh=new A.dl(B.rf,18,B.aM,null,null)
 B.D5=new A.d_(6,null,null,null)
-B.a2B=new A.a5("Platform: MetaTrader 5 (MT5)",null,null,null,null,null,null,null,null,null)
-B.Nq=s([B.Lh,B.D5,B.a2B],t.p)
+B.a2C=new A.a5("Platform: MetaTrader 5 (MT5)",null,null,null,null,null,null,null,null,null)
+B.Nq=s([B.Lh,B.D5,B.a2C],t.p)
 B.Uc=new A.EL(B.aH,B.B,B.Q,B.E,null,B.cl,null,0,B.Nq,null)
 B.Sq=new A.aF(B.JF,B.Uc,null)
 B.a2g=new A.a5("Signals are information only, not financial advice.",null,B.hG,null,null,null,null,null,null,null)
 B.Sr=new A.aF(B.dU,B.a2g,null)
 B.oq=new A.o(!0,B.cy,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a39=new A.a5("Closing EA positions\u2026 entries stay locked until confirmed.",null,B.oq,null,null,null,null,null,null,null)
-B.Ss=new A.aF(B.eK,B.a39,null)
+B.a3a=new A.a5("Closing EA positions\u2026 entries stay locked until confirmed.",null,B.oq,null,null,null,null,null,null,null)
+B.Ss=new A.aF(B.eK,B.a3a,null)
 B.a3G=new A.a5("Manage or cancel this subscription in your App Store / Google Play account settings.",null,B.ck,null,null,null,null,null,null,null)
 B.St=new A.aF(B.dU,B.a3G,null)
 B.hH=new A.o(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a2r=new A.a5("New entries resume automatically on the next broker trading day if all safety checks pass.",null,B.hH,null,null,null,null,null,null,null)
-B.Su=new A.aF(B.eK,B.a2r,null)
-B.a2v=new A.a5("Trading gold with leverage carries a high risk of loss. Past or simulated results do not guarantee future results. LABEED GOLD AI never guarantees profit or a daily return.",null,B.hG,B.cH,null,null,null,null,null,null)
-B.Sv=new A.aF(B.cc,B.a2v,null)
+B.a2s=new A.a5("New entries resume automatically on the next broker trading day if all safety checks pass.",null,B.hH,null,null,null,null,null,null,null)
+B.Su=new A.aF(B.eK,B.a2s,null)
+B.a2w=new A.a5("Trading gold with leverage carries a high risk of loss. Past or simulated results do not guarantee future results. LABEED GOLD AI never guarantees profit or a daily return.",null,B.hG,B.cH,null,null,null,null,null,null)
+B.Sv=new A.aF(B.cc,B.a2w,null)
 B.a27=new A.a5("Both modes obey the same risk limits below. The EA switches mode within a minute of saving.",null,B.ck,null,null,null,null,null,null,null)
 B.Sw=new A.aF(B.dU,B.a27,null)
 B.yk=new A.wo(null)
@@ -111950,59 +111950,59 @@ B.a2h=new A.a5("Remove account",null,B.kp,null,null,null,null,null,null,null)
 B.a2i=new A.a5("Preview unavailable.",null,null,null,null,null,null,null,null,null)
 B.a2k=new A.a5("I agree to receive trading alerts from LABEED GOLD AI on WhatsApp. I can reply STOP at any time.",null,B.hH,null,null,null,null,null,null,null)
 B.a2l=new A.a5("Connect the EA to see live risk status.",null,null,null,null,null,null,null,null,null)
-B.a2o=new A.a5("Remove the LABEED EA from your MT5 charts afterwards. If you subscribed through the App Store or Google Play, cancel the subscription in your store account so it does not renew.",null,null,null,null,null,null,null,null,null)
-B.a2p=new A.a5("Connect broker",null,null,null,null,null,null,null,null,null)
-B.a2q=new A.a5("Confirm",null,null,null,null,null,null,null,null,null)
+B.a2p=new A.a5("Remove the LABEED EA from your MT5 charts afterwards. If you subscribed through the App Store or Google Play, cancel the subscription in your store account so it does not renew.",null,null,null,null,null,null,null,null,null)
+B.a2q=new A.a5("Connect broker",null,null,null,null,null,null,null,null,null)
+B.a2r=new A.a5("Confirm",null,null,null,null,null,null,null,null,null)
 B.DA=new A.a5("Trade history",null,null,null,null,null,null,null,null,null)
-B.a2s=new A.a5("LABEED GOLD AI",null,null,null,null,null,null,null,null,null)
-B.a2w=new A.a5("Email support",null,null,null,null,null,null,null,null,null)
-B.a2x=new A.a5("Reset password",null,null,null,null,null,null,null,null,null)
-B.a2y=new A.a5("Enable 2FA",null,null,null,null,null,null,null,null,null)
-B.a2z=new A.a5("Shown only once. Store it safely.",null,B.oq,null,null,null,null,null,null,null)
-B.a2A=new A.a5("Add this key to your authenticator app, then enter the 6-digit code.",null,null,null,null,null,null,null,null,null)
-B.a2C=new A.a5("WhatsApp alerts",null,null,null,null,null,null,null,null,null)
-B.a2D=new A.a5("Emergency Stop",null,null,null,null,null,null,null,null,null)
-B.a2E=new A.a5("Emergency stop",null,null,null,null,null,null,null,null,null)
-B.a2F=new A.a5("Check your email for the reset code.",null,null,null,null,null,null,null,null,null)
-B.a2G=new A.a5("Algo trading allowed",null,null,null,null,null,null,null,null,null)
-B.a2I=new A.a5("Delete your account?",null,null,null,null,null,null,null,null,null)
-B.a2J=new A.a5("WhatsApp",null,null,null,null,null,null,null,null,null)
-B.a2K=new A.a5("The EA will stop trading and close ALL positions it opened on this account. Manual trades and other EAs are not touched.",null,null,null,null,null,null,null,null,null)
-B.a2L=new A.a5("No active subscription",null,null,null,null,null,null,null,null,null)
-B.a2N=new A.a5("Telegram",null,null,null,null,null,null,null,null,null)
-B.a2O=new A.a5("Fix",null,null,null,null,null,null,null,null,null)
-B.a2P=new A.a5("I understand that trading involves risk of loss, that no profit is guaranteed, and I accept the Terms and Privacy Policy.",null,B.Dw,null,null,null,null,null,null,null)
-B.a2Q=new A.a5("Recommended",null,null,null,null,null,null,null,null,null)
-B.a2R=new A.a5("Performance",null,null,null,null,null,null,null,null,null)
-B.a2S=new A.a5("Block entries if news data is unavailable",null,null,null,null,null,null,null,null,null)
-B.a2T=new A.a5("Generate an EA key, then paste it into the LABEED GOLD AI EA inputs in MT5 on your Windows VPS.",null,null,null,null,null,null,null,null,null)
-B.a2U=new A.a5("Two-factor authentication",null,null,null,null,null,null,null,null,null)
-B.a2V=new A.a5("Forgot password?",null,null,null,null,null,null,null,null,null)
-B.a2X=new A.a5("Enable",null,null,null,null,null,null,null,null,null)
-B.a2Y=new A.a5("Subscription",null,null,null,null,null,null,null,null,null)
-B.a3_=new A.a5("Stop Auto",null,null,null,null,null,null,null,null,null)
-B.a30=new A.a5("Choose",null,null,null,null,null,null,null,null,null)
-B.a31=new A.a5("Update trading password",null,null,null,null,null,null,null,null,null)
-B.a32=new A.a5("Account",null,null,null,null,null,null,null,null,null)
-B.a33=new A.a5("Generate EA key",null,null,null,null,null,null,null,null,null)
-B.a34=new A.a5("Create an account",null,null,null,null,null,null,null,null,null)
-B.a35=new A.a5("Permanently deletes your LABEED account and personal data. Your EA connection stops working, card renewals are cancelled, and you are signed out everywhere. Payment records are kept as the law requires. This cannot be undone.",null,B.ck,null,null,null,null,null,null,null)
-B.a36=new A.a5("Notifications",null,null,null,null,null,null,null,null,null)
-B.a37=new A.a5("I agree",null,null,null,null,null,null,null,null,null)
-B.a38=new A.a5("Typical stop distance",null,null,null,null,null,null,null,null,null)
+B.a2t=new A.a5("LABEED GOLD AI",null,null,null,null,null,null,null,null,null)
+B.a2x=new A.a5("Email support",null,null,null,null,null,null,null,null,null)
+B.a2y=new A.a5("Reset password",null,null,null,null,null,null,null,null,null)
+B.a2z=new A.a5("Enable 2FA",null,null,null,null,null,null,null,null,null)
+B.a2A=new A.a5("Shown only once. Store it safely.",null,B.oq,null,null,null,null,null,null,null)
+B.a2B=new A.a5("Add this key to your authenticator app, then enter the 6-digit code.",null,null,null,null,null,null,null,null,null)
+B.a2D=new A.a5("WhatsApp alerts",null,null,null,null,null,null,null,null,null)
+B.a2E=new A.a5("Emergency Stop",null,null,null,null,null,null,null,null,null)
+B.a2F=new A.a5("Emergency stop",null,null,null,null,null,null,null,null,null)
+B.a2G=new A.a5("Check your email for the reset code.",null,null,null,null,null,null,null,null,null)
+B.a2H=new A.a5("Algo trading allowed",null,null,null,null,null,null,null,null,null)
+B.a2J=new A.a5("Delete your account?",null,null,null,null,null,null,null,null,null)
+B.a2K=new A.a5("WhatsApp",null,null,null,null,null,null,null,null,null)
+B.a2L=new A.a5("The EA will stop trading and close ALL positions it opened on this account. Manual trades and other EAs are not touched.",null,null,null,null,null,null,null,null,null)
+B.a2M=new A.a5("No active subscription",null,null,null,null,null,null,null,null,null)
+B.a2O=new A.a5("Telegram",null,null,null,null,null,null,null,null,null)
+B.a2P=new A.a5("Fix",null,null,null,null,null,null,null,null,null)
+B.a2Q=new A.a5("I understand that trading involves risk of loss, that no profit is guaranteed, and I accept the Terms and Privacy Policy.",null,B.Dw,null,null,null,null,null,null,null)
+B.a2R=new A.a5("Recommended",null,null,null,null,null,null,null,null,null)
+B.a2S=new A.a5("Performance",null,null,null,null,null,null,null,null,null)
+B.a2T=new A.a5("Block entries if news data is unavailable",null,null,null,null,null,null,null,null,null)
+B.a2U=new A.a5("Generate an EA key, then paste it into the LABEED GOLD AI EA inputs in MT5 on your Windows VPS.",null,null,null,null,null,null,null,null,null)
+B.a2V=new A.a5("Two-factor authentication",null,null,null,null,null,null,null,null,null)
+B.a2W=new A.a5("Forgot password?",null,null,null,null,null,null,null,null,null)
+B.a2Y=new A.a5("Enable",null,null,null,null,null,null,null,null,null)
+B.a2Z=new A.a5("Subscription",null,null,null,null,null,null,null,null,null)
+B.a30=new A.a5("Stop Auto",null,null,null,null,null,null,null,null,null)
+B.a31=new A.a5("Choose",null,null,null,null,null,null,null,null,null)
+B.a32=new A.a5("Update trading password",null,null,null,null,null,null,null,null,null)
+B.a33=new A.a5("Account",null,null,null,null,null,null,null,null,null)
+B.a34=new A.a5("Generate EA key",null,null,null,null,null,null,null,null,null)
+B.a35=new A.a5("Create an account",null,null,null,null,null,null,null,null,null)
+B.a36=new A.a5("Permanently deletes your LABEED account and personal data. Your EA connection stops working, card renewals are cancelled, and you are signed out everywhere. Payment records are kept as the law requires. This cannot be undone.",null,B.ck,null,null,null,null,null,null,null)
+B.a37=new A.a5("Notifications",null,null,null,null,null,null,null,null,null)
+B.a38=new A.a5("I agree",null,null,null,null,null,null,null,null,null)
+B.a39=new A.a5("Typical stop distance",null,null,null,null,null,null,null,null,null)
 B.DB=new A.a5("Daily P/L & locks",null,null,null,null,null,null,null,null,null)
-B.a3b=new A.a5("Last EA error",null,null,null,null,null,null,null,null,null)
-B.a3d=new A.a5("Risk management & strategy",null,null,null,null,null,null,null,null,null)
-B.a3e=new A.a5("Save anyway",null,null,null,null,null,null,null,null,null)
-B.a3f=new A.a5("New trades are blocked. Existing positions stay protected by their stop loss and the daily lock.",null,null,null,null,null,null,null,null,null)
-B.a3g=new A.a5("Revoke",null,null,null,null,null,null,null,null,null)
+B.a3c=new A.a5("Last EA error",null,null,null,null,null,null,null,null,null)
+B.a3e=new A.a5("Risk management & strategy",null,null,null,null,null,null,null,null,null)
+B.a3f=new A.a5("Save anyway",null,null,null,null,null,null,null,null,null)
+B.a3g=new A.a5("New trades are blocked. Existing positions stay protected by their stop loss and the daily lock.",null,null,null,null,null,null,null,null,null)
+B.a3h=new A.a5("Revoke",null,null,null,null,null,null,null,null,null)
 B.DC=new A.a5("VPS / EA status",null,null,null,null,null,null,null,null,null)
-B.a3h=new A.a5("Push notifications",null,null,null,null,null,null,null,null,null)
-B.a3i=new A.a5("Daily locks, EA offline, trades, failures",null,null,null,null,null,null,null,null,null)
+B.a3i=new A.a5("Push notifications",null,null,null,null,null,null,null,null,null)
+B.a3j=new A.a5("Daily locks, EA offline, trades, failures",null,null,null,null,null,null,null,null,null)
 B.DD=new A.a5("Create account",null,null,null,null,null,null,null,null,null)
-B.a3j=new A.a5("Profile",null,null,null,null,null,null,null,null,null)
-B.a3k=new A.a5("Gold signals",null,null,null,null,null,null,null,null,null)
-B.a3l=new A.a5("Broker server",null,null,null,null,null,null,null,null,null)
+B.a3k=new A.a5("Profile",null,null,null,null,null,null,null,null,null)
+B.a3l=new A.a5("Gold signals",null,null,null,null,null,null,null,null,null)
+B.a3m=new A.a5("Broker server",null,null,null,null,null,null,null,null,null)
 B.a3o=new A.a5("Contact support",null,null,null,null,null,null,null,null,null)
 B.a3r=new A.a5("I saved it",null,null,null,null,null,null,null,null,null)
 B.a3t=new A.a5("Email",null,null,null,null,null,null,null,null,null)
